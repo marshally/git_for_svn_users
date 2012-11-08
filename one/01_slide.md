@@ -1,9 +1,7 @@
-!SLIDE 
-# My Presentation #
 
 !SLIDE bullets incremental
-# Bullet Points #
+# Why do we Git #
 
-* first point
-* second point
-* third point
+* fast and local
+* powerful tools
+* Lingua Franca of Open Source
