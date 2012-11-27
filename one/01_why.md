@@ -1,11 +1,14 @@
 !SLIDE
 # Git(hub) for Subversion Users #
 
+.notes by show of hands, who used gitcasts, Pro Git book chapters, try.github.com, githug
+
+
 !SLIDE bullets incremental
 # Why use Git? #
 
 * fast and local
-* seemless merges
+* seamless merges
 * partial commits
 * rewriting history
 * Lingua Franca of Open Source
@@ -30,11 +33,30 @@
 !SLIDE full-page
 ![merge failed](resized/pull-failed-build-1440.png)
 
+!SLIDE bullets
+# Why use `github`? #
+
+* pull requests
+* binary image diffs
+
+
+!SLIDE full-page
+![image diff](resized/image-diff-vm-two-up-1440.jpg)
+
+!SLIDE full-page
+![image diff](resized/image-diff-vm-swipe-1440.jpg)
+
+!SLIDE full-page
+![image diff](resized/image-diff-vm-onion_skin-1440.jpg)
+
+!SLIDE full-page
+![image diff](resized/image-diff-vm-difference-1440.jpg)
+
 !SLIDE bullets incremental
 # Why use `github`? #
 
 * pull requests
-* forking
+* binary image diffs
 * API
 * web hooks
 * Locus of Open Source
@@ -51,6 +73,12 @@
 ![octocat](resized/monroe-1440.jpg)
 
 !SLIDE full-page
+![octocat](resized/andycat-1440.jpg)
+
+!SLIDE full-page
+![octocat](resized/chellocat-1440.jpg)
+
+!SLIDE full-page
 ![octocat](resized/xtocat-1440.jpg)
 
 !SLIDE full-page
@@ -63,6 +91,7 @@
 
 !SLIDE full-page
 ![octocat](resized/gangnamtocat-1440.png)
+
 .notes brought to you by hipsters from San Francisco
 
 !SLIDE bullets

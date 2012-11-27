@@ -40,6 +40,21 @@
 
 ![branching](differences-branching.png)
 
+!SLIDE bullets incremental
+# `diff svn git` #
+
+* `git status == svn status`
+* `git blame == svn blame`
+* `git commit == svn commit`
+* `git add == svn add`
+* `git mv == svn mv`
+* `git rm == svn rm`
+
+!SLIDE bullets incremental
+# `diff svn git` #
+
+* `git log == svn log | less`
+* `git diff == svn diff | less`
 
 !SLIDE bullets incremental
 # `diff svn git` #

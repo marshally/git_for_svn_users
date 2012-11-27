@@ -3,6 +3,7 @@
 
 !SLIDE commandline incremental
 
+    $ cd some_dir
     $ git init
     Initialized empty Git repository in ~/tmp/.git/
     $ ls .git/
@@ -39,8 +40,18 @@
 !SLIDE
 # How do we: #
 
+!SLIDE bullets incremental
+# How do we: #
+## pull down a repo? ##
+
+* `svn checkout`
+* ==
+* `git clone`
+
+<!-- 23 minutes to get to here -->
 !SLIDE smaller commandline incremental
 # How do we: #
+
 ## pull down a repo? ##
 
     $ svn co svn+ssh://webdev1.boat-ed.com/home/svn/dtx
@@ -106,3 +117,60 @@
     Receiving objects: 100% (24569/24569), 20.48 MiB | 1.10 MiB/s, done.
     Resolving deltas: 100% (17343/17343), done.
     Checking out files: 100% (2664/2664), done.
+
+!SLIDE smaller commandline incremental
+# How do we: #
+## edit a file? ##
+
+!SLIDE smaller commandline incremental
+
+    $ echo "stuff" >> README.md
+    $ git status
+        # On branch master
+        # Changes not staged for commit:
+        #   (use "git add <file>..." to update what will be committed)
+        #   (use "git checkout -- <file>..." to discard changes in working directory)
+        #
+        #   modified:   README.md
+        #
+    no changes added to commit (use "git add" and/or "git commit -a")
+    $ git add README.md
+    $ git status
+        # On branch master
+        # Changes to be committed:
+        #   (use "git reset HEAD <file>..." to unstage)
+        #
+        #   modified:   README.md
+        #
+    $ git commit -v
+    $ git push origin master
+
+!SLIDE smaller commandline incremental
+# How do we: #
+## oops, revert a file? ##
+
+!SLIDE smaller commandline incremental
+
+    $ echo "stuff" >> README.md
+    $ git status
+        # On branch master
+        # Changes not staged for commit:
+        #   (use "git add <file>..." to update what will be committed)
+        #   (use "git checkout -- <file>..." to discard changes in working directory)
+        #
+        #   modified:   README.md
+        #
+        no changes added to commit (use "git add" and/or "git commit -a")
+    $ git checkout README.md
+    $ git status
+        # On branch master
+        nothing to commit, working directory clean
+
+* pull down changes from the server
+* merging
+* check out a branch
+* check out a revision
+* switch branches
+* dealing with binary files
+* builds and deployment
+
